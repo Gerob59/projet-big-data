@@ -12,6 +12,6 @@ projet fil rouge sur hadoop
 
 ## Membres
 
-- Benjamin Baska
-- Antonin Guillon
-- Robin Hotton
+- [Benjamin Baska](https://github.com/Benours)
+- [Antonin Guillon](https://github.com/antoninguillon)
+- [Robin Hotton](https://github.com/Gerob59)
