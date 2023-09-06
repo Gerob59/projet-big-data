@@ -9,7 +9,7 @@ commandes_par_annee_ville_objet = {}
 for line in sys.stdin:
     line = line.strip()
 
-    cpcli, villecli, annee, codobj, qte = line.split(",")
+    cpcli, villecli, annee, codobj, qte = line.split(";")
 
     try:
         annee = int(annee)

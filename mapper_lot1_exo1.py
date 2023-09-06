@@ -27,4 +27,4 @@ for row in csv_reader:
     qte = qte if qte and (qte != "NULL") else "0"
 
     # print les data récupérés pour le donnée en lecture stdin au reducer
-    print("%s,%s,%s,%s,%s" % (cpcli, villecli, annee, codobj, qte))
+    print("%s;%s;%s;%s;%s" % (cpcli, villecli, annee, codobj, qte))

@@ -1,9 +1,9 @@
-from cassandra.cluster import Cluster
 import csv
+from cassandra.cluster import Cluster
 
 # Établir une connexion avec le cluster Cassandra
 cluster = Cluster(["localhost"])
-session = cluster.connect("fromagerie")  # Utilisez le nom de votre keyspace
+session = cluster.connect("fromagerie")
 
 # Créez un lecteur CSV pour gérer les données
 with open("dataw_fro03.csv", "r", encoding="utf-8") as file:

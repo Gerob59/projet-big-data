@@ -20,6 +20,3 @@ CREATE TABLE IF NOT EXISTS ligne_commande (
     points TEXT,
     PRIMARY KEY (codcli, codcde, codobj)
 );
-
-
-TABLE

@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # Fonction pour traiter une ligne de données et mettre à jour le dictionnaire mydata
 def process_line(line, mydata):
     line = line.strip()  # Supprime les espaces superflus
-    annee, codobj, qte, libobj = line.split(";")  # Démontre les données
+    annee, codobj, qte, libobj = line.split(";")
 
     try:
         qte = int(qte)  # Convertit en entier
