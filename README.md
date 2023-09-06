@@ -1,8 +1,8 @@
-# hadoop
+# big data
 
 ## Contexte
 
-projet fil rouge sur hadoop
+projet fil rouge big data formation data engineer chez Diginamic
 
 ## Executer
 
