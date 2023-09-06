@@ -6,7 +6,7 @@ cluster = Cluster(["localhost"])
 session = cluster.connect("fromagerie")  # Utilisez le nom de votre keyspace
 
 # Créez un lecteur CSV pour gérer les données
-with open("dataw_fro03.csv", "r") as file:
+with open("dataw_fro03.csv", "r", encoding="utf-8") as file:
     csv_reader = csv.reader(file)
 
     # Ignorer la première ligne (en-tête)
